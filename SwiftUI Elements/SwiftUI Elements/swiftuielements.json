@@ -1,0 +1,140 @@
+[
+  {
+    "sectionName": "User Interface",
+    "elements": [
+      {
+        "name": "Text",
+        "description": "Displays one or more lines of read-only text with formatting support."
+      },
+      {
+        "name": "Image",
+        "description": "Displays an image from various data sources, with support for resizing and rendering modes."
+      },
+      {
+        "name": "Button",
+        "description": "A control that triggers an action when interacted with, customizable with labels and styles."
+      },
+      {
+        "name": "Picker",
+        "description": "Presents a list of mutually exclusive options for the user to choose from."
+      },
+      {
+        "name": "ProgressView",
+        "description": "Displays the progress of a task or process, with customizable styles and animations."
+      }
+    ]
+  },
+  {
+    "sectionName": "Views and Controls",
+    "elements": [
+      {
+        "name": "TextField",
+        "description": "A control that displays an editable text interface, with support for various keyboard types and input formatting."
+      },
+      {
+        "name": "Slider",
+        "description": "A control that displays a slider to select a value from a range, with customizable appearance and behavior."
+      },
+      {
+        "name": "Toggle",
+        "description": "A control that displays a switch to toggle between two states, with customizable labels and styles."
+      },
+      {
+        "name": "Stepper",
+        "description": "A control that increments or decrements a value with customizable step sizes and styles."
+      },
+      {
+        "name": "DatePicker",
+        "description": "A control that allows the user to select a date or date range, with various display modes and styles."
+      }
+    ]
+  },
+  {
+    "sectionName": "Gestures",
+    "elements": [
+      {
+        "name": "Tap Gesture",
+        "description": "Recognizes tapping gestures on a view, with customizable actions and modifiers."
+      },
+      {
+        "name": "Long Press Gesture",
+        "description": "Recognizes long press gestures on a view, with customizable actions and modifiers."
+      },
+      {
+        "name": "Drag Gesture",
+        "description": "Recognizes dragging gestures on a view, with customizable actions and modifiers."
+      },
+      {
+        "name": "Rotation Gesture",
+        "description": "Recognizes rotation gestures on a view, with customizable actions and modifiers."
+      },
+      {
+        "name": "Magnification Gesture",
+        "description": "Recognizes pinch-to-zoom gestures on a view, with customizable actions and modifiers."
+      }
+    ]
+  },
+  {
+    "sectionName": "Layout Views",
+    "elements": [
+      {
+        "name": "VStack",
+        "description": "A vertical stack that arranges its child views in a vertical line, with customizable spacing and alignment."
+      },
+      {
+        "name": "HStack",
+        "description": "A horizontal stack that arranges its child views in a horizontal line, with customizable spacing and alignment."
+      },
+      {
+        "name": "ZStack",
+        "description": "A view that overlays its child views on top of each other, with control over their positioning and layering."
+      },
+      {
+        "name": "ScrollView",
+        "description": "A scrollable view that displays its content within a bounded frame, with various scroll behavior options."
+      },
+      {
+        "name": "NavigationView",
+        "description": "Provides a hierarchical navigation structure for presenting different views, with customizable navigation bars and transitions."
+      }
+    ]
+  },
+  {
+    "sectionName": "Presentation",
+    "elements": [
+      {
+        "name": "Implicit Animation",
+        "description": "Automatically applies smooth animations to view changes, with customizable timing and behavior."
+      },
+      {
+        "name": "Explicit Animation",
+        "description": "Allows you to control and customize animations for specific view changes, with various timing curves and options."
+      }
+    ]
+  },
+  {
+    "sectionName": "Layout Support",
+    "elements": [
+      {
+        "name": "Spacer",
+        "description": "A flexible space that expands to fill the remaining space in a layout."
+      },
+      {
+        "name": "Divider",
+        "description": "A visual separator that can be used to divide sections or views."
+      },
+      {
+        "name": "Padding",
+        "description": "Adds padding (spacing) around a view or group of views."
+      },
+      {
+        "name": "Alignment Guides",
+        "description": "Guides that help align views within their parent container, such as leading, trailing, center, etc."
+      },
+      {
+        "name": "Frame",
+        "description": "Allows you to set the size and positioning of a view relative to its parent."
+      }
+    ]
+  }
+]
